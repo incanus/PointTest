@@ -9,44 +9,25 @@
 /* Begin PBXBuildFile section */
 		DD477B8A1A2CDC520033D2D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD477B891A2CDC520033D2D3 /* AppDelegate.swift */; };
 		DD477B8C1A2CDC520033D2D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD477B8B1A2CDC520033D2D3 /* ViewController.swift */; };
-		DD477B8F1A2CDC520033D2D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD477B8D1A2CDC520033D2D3 /* Main.storyboard */; };
 		DD477B911A2CDC520033D2D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD477B901A2CDC520033D2D3 /* Images.xcassets */; };
 		DD477B941A2CDC520033D2D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD477B921A2CDC520033D2D3 /* LaunchScreen.xib */; };
-		DD477BA01A2CDC520033D2D3 /* PointTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD477B9F1A2CDC520033D2D3 /* PointTestTests.swift */; };
+		DD477BAE1A2CE5570033D2D3 /* 1000.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DD477BAD1A2CE5570033D2D3 /* 1000.geojson */; };
+		DD477BB01A2CE5E60033D2D3 /* 3000.geojson in Resources */ = {isa = PBXBuildFile; fileRef = DD477BAF1A2CE5E60033D2D3 /* 3000.geojson */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DD477B9A1A2CDC520033D2D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD477B7C1A2CDC520033D2D3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD477B831A2CDC520033D2D3;
-			remoteInfo = PointTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DD477B841A2CDC520033D2D3 /* PointTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD477B881A2CDC520033D2D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD477B891A2CDC520033D2D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD477B8B1A2CDC520033D2D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD477B8E1A2CDC520033D2D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD477B901A2CDC520033D2D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DD477B931A2CDC520033D2D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		DD477B991A2CDC520033D2D3 /* PointTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PointTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD477B9E1A2CDC520033D2D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD477B9F1A2CDC520033D2D3 /* PointTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointTestTests.swift; sourceTree = "<group>"; };
+		DD477BAD1A2CE5570033D2D3 /* 1000.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1000.geojson; sourceTree = "<group>"; };
+		DD477BAF1A2CE5E60033D2D3 /* 3000.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3000.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DD477B811A2CDC520033D2D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD477B961A2CDC520033D2D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				DD477B861A2CDC520033D2D3 /* PointTest */,
-				DD477B9C1A2CDC520033D2D3 /* PointTestTests */,
 				DD477B851A2CDC520033D2D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				DD477B841A2CDC520033D2D3 /* PointTest.app */,
-				DD477B991A2CDC520033D2D3 /* PointTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +58,8 @@
 			children = (
 				DD477B891A2CDC520033D2D3 /* AppDelegate.swift */,
 				DD477B8B1A2CDC520033D2D3 /* ViewController.swift */,
-				DD477B8D1A2CDC520033D2D3 /* Main.storyboard */,
+				DD477BAD1A2CE5570033D2D3 /* 1000.geojson */,
+				DD477BAF1A2CE5E60033D2D3 /* 3000.geojson */,
 				DD477B901A2CDC520033D2D3 /* Images.xcassets */,
 				DD477B921A2CDC520033D2D3 /* LaunchScreen.xib */,
 				DD477B871A2CDC520033D2D3 /* Supporting Files */,
@@ -91,23 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				DD477B881A2CDC520033D2D3 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DD477B9C1A2CDC520033D2D3 /* PointTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD477B9F1A2CDC520033D2D3 /* PointTestTests.swift */,
-				DD477B9D1A2CDC520033D2D3 /* Supporting Files */,
-			);
-			path = PointTestTests;
-			sourceTree = "<group>";
-		};
-		DD477B9D1A2CDC520033D2D3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD477B9E1A2CDC520033D2D3 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,24 +95,6 @@
 			productReference = DD477B841A2CDC520033D2D3 /* PointTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DD477B981A2CDC520033D2D3 /* PointTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD477BA61A2CDC520033D2D3 /* Build configuration list for PBXNativeTarget "PointTestTests" */;
-			buildPhases = (
-				DD477B951A2CDC520033D2D3 /* Sources */,
-				DD477B961A2CDC520033D2D3 /* Frameworks */,
-				DD477B971A2CDC520033D2D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD477B9B1A2CDC520033D2D3 /* PBXTargetDependency */,
-			);
-			name = PointTestTests;
-			productName = PointTestTests;
-			productReference = DD477B991A2CDC520033D2D3 /* PointTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +106,6 @@
 				TargetAttributes = {
 					DD477B831A2CDC520033D2D3 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					DD477B981A2CDC520033D2D3 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = DD477B831A2CDC520033D2D3;
 					};
 				};
 			};
@@ -182,7 +123,6 @@
 			projectRoot = "";
 			targets = (
 				DD477B831A2CDC520033D2D3 /* PointTest */,
-				DD477B981A2CDC520033D2D3 /* PointTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,16 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD477B8F1A2CDC520033D2D3 /* Main.storyboard in Resources */,
+				DD477BAE1A2CE5570033D2D3 /* 1000.geojson in Resources */,
 				DD477B941A2CDC520033D2D3 /* LaunchScreen.xib in Resources */,
 				DD477B911A2CDC520033D2D3 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD477B971A2CDC520033D2D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DD477BB01A2CE5E60033D2D3 /* 3000.geojson in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,33 +151,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD477B951A2CDC520033D2D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD477BA01A2CDC520033D2D3 /* PointTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		DD477B9B1A2CDC520033D2D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DD477B831A2CDC520033D2D3 /* PointTest */;
-			targetProxy = DD477B9A1A2CDC520033D2D3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		DD477B8D1A2CDC520033D2D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD477B8E1A2CDC520033D2D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD477B921A2CDC520033D2D3 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -354,40 +264,6 @@
 			};
 			name = Release;
 		};
-		DD477BA71A2CDC520033D2D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PointTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointTest.app/PointTest";
-			};
-			name = Debug;
-		};
-		DD477BA81A2CDC520033D2D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PointTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointTest.app/PointTest";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,14 +281,6 @@
 			buildConfigurations = (
 				DD477BA41A2CDC520033D2D3 /* Debug */,
 				DD477BA51A2CDC520033D2D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		DD477BA61A2CDC520033D2D3 /* Build configuration list for PBXNativeTarget "PointTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD477BA71A2CDC520033D2D3 /* Debug */,
-				DD477BA81A2CDC520033D2D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
